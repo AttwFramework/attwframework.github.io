@@ -1,0 +1,60 @@
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	background: #e8e8e8;
+	font-family: "Tahoma";
+}
+
+.content{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.content .links{
+	background: white;
+	margin-top: 10px;
+	box-shadow: 5px 5px 10px #ccc;
+}
+
+.content .links .clone{
+	padding: 10px;
+	background: #fff;
+	display: none;
+}
+
+.content .links .license{
+	padding: 10px;
+	background: #fff;
+	display: none;
+	margin-bottom: 10px;
+}
+
+.content .description{
+	text-align: center;
+	padding: 10px;
+}
+
+input.input1{
+	padding: 10px;
+	background: #e8e8e8;
+	border: 1px solid #ccc;
+	width: 460px;
+	font-family: monospace;
+}
+
+a.link1{
+	padding: 10px;
+	display: block;
+	color: #000;
+	text-align: center;
+}
+
+a.link1:hover{
+	background: #e8e8e8;
+}

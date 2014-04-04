@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+	<head>
+		<title>AttwFramework</title>
+
+		<link rel="stylesheet" href="content/css/main.css" type="text/css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#clone').click(function(){
+					if($('.clone').is(':visible')){
+						$('.clone').hide();
+					}else{
+						$('.clone').show();
+					}
+
+					return false;
+				});
+
+				$('#license').click(function(){
+					if($('.license').is(':visible')){
+						$('.license').hide();
+					}else{
+						$('.license').show();
+					}
+
+					return false;
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="content">
+			<div class="logo">
+				<img src="content/images/AF-logo1.png" width="500px" />
+			</div>
+			<div class="description">
+				It is a open source MVC micro-framework in PHP
+			</div>
+			<div class="links">
+				<ul>
+					<li>
+						<a href="https://github.com/AttwFramework/AttwFramework/wiki/Documentation" target="_blank" class="link1">
+							<img src="http://icons.iconarchive.com/icons/pelfusion/flat-file-type/16/doc-icon.png" align="left" style="-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);" /> 
+							Documentation
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/AttwFramework/AttwFramework/archive/master.zip" target="_blank" class="link1">
+							<img src="http://icons.iconarchive.com/icons/pelfusion/flat-file-type/16/zip-icon.png" align="left" style="-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);" />
+							Download ZIP
+						</a>
+					</li>
+					<li>
+						<a href="#clone" class="link1" id="clone">
+							<img src="http://icons.iconarchive.com/icons/uiconstock/folded-social-media/16/Github-icon.png" align="left" style="-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);" />
+							Clone the repository
+						</a>
+						<div class="clone">
+							<input type="text" class="input1" disabled="disabled" value="$ git clone https://github.com/AttwFramework/AttwFramework.git" />
+						</div>
+					</li>
+					<li>
+						<a href="#license" class="link1" id="license">
+							<img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-7/16/License-manager-icon.png" align="left" style="-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);" />
+							License
+						</a>
+						<div class="license">
+							The MIT License (MIT)<br /><br />
+
+Copyright (c) 2014 - * Gabriel Jacinto<br /><br />
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br /><br />
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br /><br />
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
