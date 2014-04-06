@@ -12,6 +12,7 @@ body{
 	background-image: url('../images/bg.png');
 	background-position: bottom;
 	background-attachment: fixed;
+	text-shadow: 1px 2px #ccc;
 }
 
 a{
@@ -58,12 +59,17 @@ a:hover{
 	padding: 10px;
 }
 
-input.input1{
+.code{
 	padding: 10px;
 	background: #e8e8e8;
 	border: 1px solid #ccc;
-	width: 460px;
 	font-family: monospace;
+	width: 50%;
+	height: 28px;
+	margin: 0 auto;
+	overflow: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
 }
 
 a.link1{
